@@ -53,12 +53,12 @@ int main() {
         c[i] = rand() % 21;
         d[i] = rand() % 21;
     }
-    printf("Массив C:\n");
+    printf("Arr C:\n");
     for (int i = 0; i < 20; i++) {
         printf("%d ", c[i]);
     }
     printf("\n");
-    printf("Массив D:\n");
+    printf("Arr D:\n");
     for (int i = 0; i < 20; i++) {
         printf("%d ", d[i]);
     }
@@ -87,7 +87,7 @@ int main() {
         j++;
         k++;
     }
-    printf("Массив E:\n");
+    printf("Arr E:\n");
     for (int i = 0; i < 40; i++) {
         printf("%d ", e[i]);
     }

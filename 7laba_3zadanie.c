@@ -10,20 +10,19 @@ int main() {
     for (int i = 0; i < 20; i++) {
         arr[i] = (float)(rand() % 21 - 10);
     }
-    printf("Массив:\n");
+    printf("Arr:\n");
     for (int i = 0; i < 20; i++) {
-        printf("%.2f ", arr[i]);
+        printf("%.2f\n", arr[i]);
     }
-    printf("\n");
     for (int i = 0; i < 20; i++) {
         if (arr[i] > 0) {
             pos_arr[pos_count] = arr[i];
             pos_count++;
         }
     }
-    printf("Массив положительных элементов:\n");
+    printf("Положительный массив:\n");
     for (int i = 0; i < pos_count; i++) {
-        printf("%.2f ", pos_arr[i]);
+        printf("%.2f\n", pos_arr[i]);
     }
     printf("\n");
     return 0;

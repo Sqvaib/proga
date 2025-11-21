@@ -8,12 +8,11 @@ int main() {
     for (int i = 0; i < 15; i++) {
         arr[i] = rand() % 11;
     }
-    printf("Массив:\n");
+    printf("Arr:\n");
     for (int i = 0; i < 15; i++) {
-        printf("%d ", arr[i]);
+        printf("%d\n", arr[i]);
     }
-    printf("\n");
-    printf("Элементы массива, исключая ранее встречавшиеся:\n");
+    printf("Повторы:\n");
     for (int i = 0; i < 15; i++) {
         int j;
         for (j = 0; j < i; j++) {
@@ -22,7 +21,7 @@ int main() {
             }
         }
         if (i == j) {
-            printf("%d ", arr[i]);
+            printf("%d\n", arr[i]);
         }
     }
     printf("\n");
